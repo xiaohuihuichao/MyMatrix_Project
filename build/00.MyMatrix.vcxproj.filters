@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\Users\mario.he\Desktop\project\MyMatrix\src\MyMatrix.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\Users\mario.he\Desktop\project\MyMatrix\MyMatrixMain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Users\mario.he\Desktop\project\MyMatrix\include\MyMatrix.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\Users\mario.he\Desktop\project\module\0.Linear_Regression\include\Linear_Regression.h">
+      <Filter>Include</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Users\mario.he\Desktop\project\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{FE98F1BC-0B24-32FF-BD6D-ACCA610852D1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include">
+      <UniqueIdentifier>{505AE0A1-D36E-39C8-8209-3454DFD6CAF2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

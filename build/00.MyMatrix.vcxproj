@@ -1,0 +1,329 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGUID>{D65DDE05-240A-380F-9FF6-59B55126497A}</ProjectGUID>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>00.MyMatrix</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v120</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+    <PropertyGroup>
+      <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Users\mario.he\Desktop\project\build\Debug\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">00.MyMatrix.dir\Debug\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">00.MyMatrix</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Users\mario.he\Desktop\project\build\Release\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">00.MyMatrix.dir\Release\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">00.MyMatrix</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\Users\mario.he\Desktop\project\build\MinSizeRel\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">00.MyMatrix.dir\MinSizeRel\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">00.MyMatrix</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
+      <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\Users\mario.he\Desktop\project\build\RelWithDebInfo\</OutDir>
+      <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">00.MyMatrix.dir\RelWithDebInfo\</IntDir>
+      <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">00.MyMatrix</TargetName>
+      <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
+      <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</LinkIncremental>
+      <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">true</GenerateManifest>
+    </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Users\mario.he\Desktop\project\MyMatrix\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Debug/</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_DEBUG;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Users\mario.he\Desktop\project\MyMatrix\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Users\mario.he\Desktop\project\MyMatrix\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Users/mario.he/Desktop/project/build/Debug/00.MyMatrix.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Users/mario.he/Desktop/project/build/Debug/00.MyMatrix.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Users\mario.he\Desktop\project\MyMatrix\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>Release/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Users\mario.he\Desktop\project\MyMatrix\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Users\mario.he\Desktop\project\MyMatrix\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Users/mario.he/Desktop/project/build/Release/00.MyMatrix.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Users/mario.he/Desktop/project/build/Release/00.MyMatrix.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Users\mario.he\Desktop\project\MyMatrix\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat></DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Users\mario.he\Desktop\project\MyMatrix\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Users\mario.he\Desktop\project\MyMatrix\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Users/mario.he/Desktop/project/build/MinSizeRel/00.MyMatrix.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Users/mario.he/Desktop/project/build/MinSizeRel/00.MyMatrix.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Users\mario.he\Desktop\project\MyMatrix\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Users\mario.he\Desktop\project\MyMatrix\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Users\mario.he\Desktop\project\MyMatrix\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalOptions> /machine:X86 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Users/mario.he/Desktop/project/build/RelWithDebInfo/00.MyMatrix.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Users/mario.he/Desktop/project/build/RelWithDebInfo/00.MyMatrix.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+      <Version></Version>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Users\mario.he\Desktop\project\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule D:/Users/mario.he/Desktop/project/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+E:\mario.he\cmake\bin\cmake.exe -HD:/Users/mario.he/Desktop/project -BD:/Users/mario.he/Desktop/project/build --check-stamp-file D:\Users\mario.he\Desktop\project\build\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/Users/mario.he/Desktop/project/CMakeLists.txt;D:\Users\mario.he\Desktop\project\CMakeLists.txt;D:\Users\mario.he\Desktop\project\build\CMakeFiles\3.6.2\CMakeSystem.cmake;E:\mario.he\cmake\share\cmake-3.6\Modules\CMakeSystemSpecificInitialize.cmake;D:\Users\mario.he\Desktop\project\build\CMakeFiles\3.6.2\CMakeCCompiler.cmake;D:\Users\mario.he\Desktop\project\build\CMakeFiles\3.6.2\CMakeCXXCompiler.cmake;E:\mario.he\cmake\share\cmake-3.6\Modules\CMakeSystemSpecificInformation.cmake;E:\mario.he\cmake\share\cmake-3.6\Modules\CMakeGenericSystem.cmake;E:\mario.he\cmake\share\cmake-3.6\Modules\Platform\Windows.cmake;E:\mario.he\cmake\share\cmake-3.6\Modules\Platform\WindowsPaths.cmake;E:\mario.he\cmake\share\cmake-3.6\Modules\CMakeCInformation.cmake;E:\mario.he\cmake\share\cmake-3.6\Modules\CMakeLanguageInformation.cmake;E:\mario.he\cmake\share\cmake-3.6\Modules\Platform\Windows-MSVC-C.cmake;E:\mario.he\cmake\share\cmake-3.6\Modules\Platform\Windows-MSVC.cmake;D:\Users\mario.he\Desktop\project\build\CMakeFiles\3.6.2\CMakeRCCompiler.cmake;E:\mario.he\cmake\share\cmake-3.6\Modules\CMakeRCInformation.cmake;E:\mario.he\cmake\share\cmake-3.6\Modules\CMakeCommonLanguageInclude.cmake;E:\mario.he\cmake\share\cmake-3.6\Modules\CMakeCXXInformation.cmake;E:\mario.he\cmake\share\cmake-3.6\Modules\CMakeLanguageInformation.cmake;E:\mario.he\cmake\share\cmake-3.6\Modules\Compiler\MSVC-CXX.cmake;E:\mario.he\cmake\share\cmake-3.6\Modules\Platform\Windows-MSVC-CXX.cmake;E:\mario.he\cmake\share\cmake-3.6\Modules\Platform\Windows-MSVC.cmake;E:\mario.he\cmake\share\cmake-3.6\Modules\CMakeCommonLanguageInclude.cmake;D:\Users\mario.he\Desktop\project\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\Users\mario.he\Desktop\project\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/Users/mario.he/Desktop/project/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+E:\mario.he\cmake\bin\cmake.exe -HD:/Users/mario.he/Desktop/project -BD:/Users/mario.he/Desktop/project/build --check-stamp-file D:\Users\mario.he\Desktop\project\build\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/Users/mario.he/Desktop/project/CMakeLists.txt;D:\Users\mario.he\Desktop\project\CMakeLists.txt;D:\Users\mario.he\Desktop\project\build\CMakeFiles\3.6.2\CMakeSystem.cmake;E:\mario.he\cmake\share\cmake-3.6\Modules\CMakeSystemSpecificInitialize.cmake;D:\Users\mario.he\Desktop\project\build\CMakeFiles\3.6.2\CMakeCCompiler.cmake;D:\Users\mario.he\Desktop\project\build\CMakeFiles\3.6.2\CMakeCXXCompiler.cmake;E:\mario.he\cmake\share\cmake-3.6\Modules\CMakeSystemSpecificInformation.cmake;E:\mario.he\cmake\share\cmake-3.6\Modules\CMakeGenericSystem.cmake;E:\mario.he\cmake\share\cmake-3.6\Modules\Platform\Windows.cmake;E:\mario.he\cmake\share\cmake-3.6\Modules\Platform\WindowsPaths.cmake;E:\mario.he\cmake\share\cmake-3.6\Modules\CMakeCInformation.cmake;E:\mario.he\cmake\share\cmake-3.6\Modules\CMakeLanguageInformation.cmake;E:\mario.he\cmake\share\cmake-3.6\Modules\Platform\Windows-MSVC-C.cmake;E:\mario.he\cmake\share\cmake-3.6\Modules\Platform\Windows-MSVC.cmake;D:\Users\mario.he\Desktop\project\build\CMakeFiles\3.6.2\CMakeRCCompiler.cmake;E:\mario.he\cmake\share\cmake-3.6\Modules\CMakeRCInformation.cmake;E:\mario.he\cmake\share\cmake-3.6\Modules\CMakeCommonLanguageInclude.cmake;E:\mario.he\cmake\share\cmake-3.6\Modules\CMakeCXXInformation.cmake;E:\mario.he\cmake\share\cmake-3.6\Modules\CMakeLanguageInformation.cmake;E:\mario.he\cmake\share\cmake-3.6\Modules\Compiler\MSVC-CXX.cmake;E:\mario.he\cmake\share\cmake-3.6\Modules\Platform\Windows-MSVC-CXX.cmake;E:\mario.he\cmake\share\cmake-3.6\Modules\Platform\Windows-MSVC.cmake;E:\mario.he\cmake\share\cmake-3.6\Modules\CMakeCommonLanguageInclude.cmake;D:\Users\mario.he\Desktop\project\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\Users\mario.he\Desktop\project\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule D:/Users/mario.he/Desktop/project/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+E:\mario.he\cmake\bin\cmake.exe -HD:/Users/mario.he/Desktop/project -BD:/Users/mario.he/Desktop/project/build --check-stamp-file D:\Users\mario.he\Desktop\project\build\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:/Users/mario.he/Desktop/project/CMakeLists.txt;D:\Users\mario.he\Desktop\project\CMakeLists.txt;D:\Users\mario.he\Desktop\project\build\CMakeFiles\3.6.2\CMakeSystem.cmake;E:\mario.he\cmake\share\cmake-3.6\Modules\CMakeSystemSpecificInitialize.cmake;D:\Users\mario.he\Desktop\project\build\CMakeFiles\3.6.2\CMakeCCompiler.cmake;D:\Users\mario.he\Desktop\project\build\CMakeFiles\3.6.2\CMakeCXXCompiler.cmake;E:\mario.he\cmake\share\cmake-3.6\Modules\CMakeSystemSpecificInformation.cmake;E:\mario.he\cmake\share\cmake-3.6\Modules\CMakeGenericSystem.cmake;E:\mario.he\cmake\share\cmake-3.6\Modules\Platform\Windows.cmake;E:\mario.he\cmake\share\cmake-3.6\Modules\Platform\WindowsPaths.cmake;E:\mario.he\cmake\share\cmake-3.6\Modules\CMakeCInformation.cmake;E:\mario.he\cmake\share\cmake-3.6\Modules\CMakeLanguageInformation.cmake;E:\mario.he\cmake\share\cmake-3.6\Modules\Platform\Windows-MSVC-C.cmake;E:\mario.he\cmake\share\cmake-3.6\Modules\Platform\Windows-MSVC.cmake;D:\Users\mario.he\Desktop\project\build\CMakeFiles\3.6.2\CMakeRCCompiler.cmake;E:\mario.he\cmake\share\cmake-3.6\Modules\CMakeRCInformation.cmake;E:\mario.he\cmake\share\cmake-3.6\Modules\CMakeCommonLanguageInclude.cmake;E:\mario.he\cmake\share\cmake-3.6\Modules\CMakeCXXInformation.cmake;E:\mario.he\cmake\share\cmake-3.6\Modules\CMakeLanguageInformation.cmake;E:\mario.he\cmake\share\cmake-3.6\Modules\Compiler\MSVC-CXX.cmake;E:\mario.he\cmake\share\cmake-3.6\Modules\Platform\Windows-MSVC-CXX.cmake;E:\mario.he\cmake\share\cmake-3.6\Modules\Platform\Windows-MSVC.cmake;E:\mario.he\cmake\share\cmake-3.6\Modules\CMakeCommonLanguageInclude.cmake;D:\Users\mario.he\Desktop\project\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\Users\mario.he\Desktop\project\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule D:/Users/mario.he/Desktop/project/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+E:\mario.he\cmake\bin\cmake.exe -HD:/Users/mario.he/Desktop/project -BD:/Users/mario.he/Desktop/project/build --check-stamp-file D:\Users\mario.he\Desktop\project\build\CMakeFiles\generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:/Users/mario.he/Desktop/project/CMakeLists.txt;D:\Users\mario.he\Desktop\project\CMakeLists.txt;D:\Users\mario.he\Desktop\project\build\CMakeFiles\3.6.2\CMakeSystem.cmake;E:\mario.he\cmake\share\cmake-3.6\Modules\CMakeSystemSpecificInitialize.cmake;D:\Users\mario.he\Desktop\project\build\CMakeFiles\3.6.2\CMakeCCompiler.cmake;D:\Users\mario.he\Desktop\project\build\CMakeFiles\3.6.2\CMakeCXXCompiler.cmake;E:\mario.he\cmake\share\cmake-3.6\Modules\CMakeSystemSpecificInformation.cmake;E:\mario.he\cmake\share\cmake-3.6\Modules\CMakeGenericSystem.cmake;E:\mario.he\cmake\share\cmake-3.6\Modules\Platform\Windows.cmake;E:\mario.he\cmake\share\cmake-3.6\Modules\Platform\WindowsPaths.cmake;E:\mario.he\cmake\share\cmake-3.6\Modules\CMakeCInformation.cmake;E:\mario.he\cmake\share\cmake-3.6\Modules\CMakeLanguageInformation.cmake;E:\mario.he\cmake\share\cmake-3.6\Modules\Platform\Windows-MSVC-C.cmake;E:\mario.he\cmake\share\cmake-3.6\Modules\Platform\Windows-MSVC.cmake;D:\Users\mario.he\Desktop\project\build\CMakeFiles\3.6.2\CMakeRCCompiler.cmake;E:\mario.he\cmake\share\cmake-3.6\Modules\CMakeRCInformation.cmake;E:\mario.he\cmake\share\cmake-3.6\Modules\CMakeCommonLanguageInclude.cmake;E:\mario.he\cmake\share\cmake-3.6\Modules\CMakeCXXInformation.cmake;E:\mario.he\cmake\share\cmake-3.6\Modules\CMakeLanguageInformation.cmake;E:\mario.he\cmake\share\cmake-3.6\Modules\Compiler\MSVC-CXX.cmake;E:\mario.he\cmake\share\cmake-3.6\Modules\Platform\Windows-MSVC-CXX.cmake;E:\mario.he\cmake\share\cmake-3.6\Modules\Platform\Windows-MSVC.cmake;E:\mario.he\cmake\share\cmake-3.6\Modules\CMakeCommonLanguageInclude.cmake;D:\Users\mario.he\Desktop\project\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\Users\mario.he\Desktop\project\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\Users\mario.he\Desktop\project\MyMatrix\include\MyMatrix.h" />
+    <ClInclude Include="D:\Users\mario.he\Desktop\project\module\0.Linear_Regression\include\Linear_Regression.h" />
+    <ClCompile Include="D:\Users\mario.he\Desktop\project\MyMatrix\src\MyMatrix.cpp"  />
+    <ClCompile Include="D:\Users\mario.he\Desktop\project\MyMatrix\MyMatrixMain.cpp"  />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:/Users/mario.he/Desktop/project/build/ZERO_CHECK.vcxproj">
+      <Project>1B62F5B9-5882-3805-A18D-435B44B1B44B</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,23 @@
+# CMake generation dependency list for this directory.
+D:/Users/mario.he/Desktop/project/CMakeLists.txt
+D:/Users/mario.he/Desktop/project/build/CMakeFiles/3.6.2/CMakeSystem.cmake
+E:/mario.he/cmake/share/cmake-3.6/Modules/CMakeSystemSpecificInitialize.cmake
+D:/Users/mario.he/Desktop/project/build/CMakeFiles/3.6.2/CMakeCCompiler.cmake
+D:/Users/mario.he/Desktop/project/build/CMakeFiles/3.6.2/CMakeCXXCompiler.cmake
+E:/mario.he/cmake/share/cmake-3.6/Modules/CMakeSystemSpecificInformation.cmake
+E:/mario.he/cmake/share/cmake-3.6/Modules/CMakeGenericSystem.cmake
+E:/mario.he/cmake/share/cmake-3.6/Modules/Platform/Windows.cmake
+E:/mario.he/cmake/share/cmake-3.6/Modules/Platform/WindowsPaths.cmake
+E:/mario.he/cmake/share/cmake-3.6/Modules/CMakeCInformation.cmake
+E:/mario.he/cmake/share/cmake-3.6/Modules/CMakeLanguageInformation.cmake
+E:/mario.he/cmake/share/cmake-3.6/Modules/Platform/Windows-MSVC-C.cmake
+E:/mario.he/cmake/share/cmake-3.6/Modules/Platform/Windows-MSVC.cmake
+D:/Users/mario.he/Desktop/project/build/CMakeFiles/3.6.2/CMakeRCCompiler.cmake
+E:/mario.he/cmake/share/cmake-3.6/Modules/CMakeRCInformation.cmake
+E:/mario.he/cmake/share/cmake-3.6/Modules/CMakeCommonLanguageInclude.cmake
+E:/mario.he/cmake/share/cmake-3.6/Modules/CMakeCXXInformation.cmake
+E:/mario.he/cmake/share/cmake-3.6/Modules/CMakeLanguageInformation.cmake
+E:/mario.he/cmake/share/cmake-3.6/Modules/Compiler/MSVC-CXX.cmake
+E:/mario.he/cmake/share/cmake-3.6/Modules/Platform/Windows-MSVC-CXX.cmake
+E:/mario.he/cmake/share/cmake-3.6/Modules/Platform/Windows-MSVC.cmake
+E:/mario.he/cmake/share/cmake-3.6/Modules/CMakeCommonLanguageInclude.cmake

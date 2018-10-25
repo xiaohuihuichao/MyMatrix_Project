@@ -1,0 +1,16 @@
+﻿生成启动时间为 2018/10/24 18:27:17。
+     1>项目“D:\Users\mario.he\Desktop\project\build\00.MyMatrix.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ID:\Users\mario.he\Desktop\project\MyMatrix\include /nologo /W3 /WX- /O2 /Ob2 /Oy- /D WIN32 /D _WINDOWS /D NDEBUG /D "CMAKE_INTDIR=\"Release\"" /D _MBCS /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /GR /Fo"00.MyMatrix.dir\Release\\" /Fd"00.MyMatrix.dir\Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt D:\Users\mario.he\Desktop\project\MyMatrix\MyMatrixMain.cpp D:\Users\mario.he\Desktop\project\MyMatrix\src\MyMatrix.cpp
+         MyMatrixMain.cpp
+         MyMatrix.cpp
+         正在生成代码...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Users\mario.he\Desktop\project\build\Release\00.MyMatrix.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:"D:/Users/mario.he/Desktop/project/build/Release/00.MyMatrix.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/Users/mario.he/Desktop/project/build/Release/00.MyMatrix.lib" /MACHINE:X86 /SAFESEH  /machine:X86 00.MyMatrix.dir\Release\MyMatrix.obj
+         00.MyMatrix.dir\Release\MyMatrixMain.obj
+         00.MyMatrix.vcxproj -> D:\Users\mario.he\Desktop\project\build\Release\00.MyMatrix.exe
+     1>已完成生成项目“D:\Users\mario.he\Desktop\project\build\00.MyMatrix.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.37
